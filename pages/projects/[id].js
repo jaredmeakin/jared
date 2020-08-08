@@ -1,5 +1,5 @@
 import { getProjectDetail, getProjectIds } from '../../lib/projects'
-import Header from '../../components/ProjectHeader'
+import Header from '../../components/projectHeader'
 
 export default ({ project }) => {
   return (
