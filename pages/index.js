@@ -65,11 +65,10 @@ export default ({ projects }) => {
           I really love to <b>do it all</b>! Here are a few examples that should
           help you understand what that means:
         </Description>
-        <div className="grid grid-cols-1 gap-8 mt-4 text-lg leading-relaxed sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 mt-6 text-lg leading-relaxed sm:grid-cols-2">
           {projects.map((project, index) => (
             <a key={index} href={`/projects/${project?.id}`}>
-              {/*<img src={`/assets/${project.id}.svg`} className="h-8 mb-2" />*/}
-              <div className="font-bold text-2xl">{project?.title}</div>
+              <div className="text-2xl font-bold">{project?.title}</div>
               <div>{project?.description}</div>
             </a>
           ))}

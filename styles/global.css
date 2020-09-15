@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
 @tailwind utilities;
 
+/* purgecss start ignore */
 body, html {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   color: #333333;
@@ -10,3 +15,4 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   background: url('/background.jpg') repeat;
 }
+/* purgecss end ignore */
